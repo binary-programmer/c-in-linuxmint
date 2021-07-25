@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>C in Linux-mint</title>
+	<!-- link css -->
+	<link rel="stylesheet" href="css/index-style.css">
+</head>
+<body>
+	<!-- header section -->
+	<header class="container text-color-primary">
+		<h1>How to Run a C Program in Linux-Mint</h1>
+		<hr>
+	</header>
+	
+	<!-- main section -->
+	<main class="container">
+		<h3 class="text-color-secondary">Let's follow the following steps to learn how to run a C program in Linux-mint:</h3>
+		<!-- step-1 -->
+		<div class="step-container">
+			<h3><span class="text-color-primary">Step-1: </span>Open Terminal</h3>
+			<p>To open terminal press Ctrl+Alt+t together. Here, the plus-sign ('+') indicates together i.e. we have to press Ctrl, Alt and t keys together from keyboard but not the plus key. Terminal will open like the following figure: </p>
+			<div class="img-container">
+				<img src="img/mint-terminal.png" alt="mint terminal image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-1:</span> Screenshot of Mint Terminal</span>
+			</div>
+		</div>
+		<!-- step-2 -->
+		<div class="step-container">
+			<h3><span class="text-color-primary">Step-2: </span>Checking gcc Version</h3>
+			<p>Type the following command in the terminal as shown in <span class="text-color-primary">Figure-2</span> to check whether gcc compiler is installed or not before installing it:</p>
+			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;gcc --version</p>
+			<div class="img-container">
+				<img src="img/checking-gcc-version.png" alt="gcc version checking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-2:</span> Checking gcc Version</span>
+			</div>
+			<p>Then press Enter key from keyboard.</p>
+		</div>
+		<!-- step-3 -->
+		<div class="step-container">
+			<h3><span class="text-color-primary">Step-3: </span>If gcc Not Found</h3>
+			<p>If gcc not found comes like the following message as shown in <span class="text-color-primary">Figure-3</span>, follow from <span class="text-color-primary">Step-4</span>. Otherwise, follow from <span class="text-color-primary">Step-x</span>.</p>
+			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;Command 'gcc' not found, but can be installed with: <br> &nbsp;sudo apt install gcc</p>
+			<div class="img-container">
+				<img src="img/gcc-not-found.png" alt="gcc version checking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-3:</span> Checking gcc Version</span>
+			</div>
+		</div>
+		<!-- step-4 -->
+		<div class="step-container">
+			<h3><span class="text-color-primary">Step-4: </span>Run Command: sudo apt install gcc</h3>
+			<p>Type the following command in the terminal as shown in <span class="text-color-primary">Figure-4</span> to install gcc.</p>
+			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;sudo apt install gcc</p>
+			<div class="img-container">
+				<img src="img/sudo-apt-install-gcc.png" alt="gcc version checking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-4:</span> Run Command: sudo apt install gcc</span>
+			</div>
+			<p>Then press Enter key from keyboard.</p>
+		</div>
+		<!-- step-5 -->
+		<div class="step-container">
+			<h3><span class="text-color-primary">Step-5: </span>Type Password</h3>
+			<p>The terminal will ask to type password like the following message as shown in <span class="text-color-primary">Figure-5</span>.</p>
+			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;[sudo] password for binary-programmer</p>
+			<div class="img-container">
+				<img src="img/type-password.png" alt="gcc version checking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-5:</span> Type Password</span>
+			</div>
+			<p>Now, type the user password and press Enter key from keyboard. Here, my user name is binary-programmer. So, I am going to type the password of binary-programmer.</p>
+		</div>
+		<!-- step-6 -->
+		<div class="step-container">
+			<h3><span class="text-color-primary">Step-6: </span>gcc Installation Completion</h3>
+			<p>The terminal will show the message as shown in <span class="text-color-primary">Figure-6</span> indicating the gcc installation completion.</p>
+			<div class="img-container">
+				<img src="img/gcc-installed.png" alt="gcc version checking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-6:</span> gcc Installation Completion</span>
+			</div>
+		</div>
+		<!-- step-7 -->
+		<div class="step-container">
+			<h3><span class="text-color-primary">Step-7: </span>Recheck gcc Version</h3>
+			<p>Recheck gcc version like <span class="text-color-primary">Step-2:</span> as shown in <span class="text-color-primary">Figure-7</span>.</p>
+			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;gcc --version</p>
+			<div class="img-container">
+				<img src="img/checking-gcc-version-again.png" alt="gcc version checking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-7:</span> Recheck gcc Version</span>
+			</div>
+		</div>
+		<!-- step-8 -->
+		<div class="step-container">
+			<h3><span class="text-color-primary">Step-8: </span>Recheck gcc Version</h3>
+			<p>Recheck gcc version like <span class="text-color-primary">Step-2:</span> as shown in <span class="text-color-primary">Figure-7</span>.</p>
+			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;gcc --version</p>
+			<div class="img-container">
+				<img src="img/checking-gcc-version-again.png" alt="gcc version checking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-7:</span> Recheck gcc Version</span>
+			</div>
+		</div>
+	</main>
+	
+	<!-- footer section -->
+	<footer class="container"></footer>
+</body>
+</html>

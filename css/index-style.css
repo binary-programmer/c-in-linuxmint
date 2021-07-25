@@ -1,0 +1,100 @@
+/*
+ * -------------------
+ * css styles
+ * for the index.html
+ * -------------------
+ */
+
+/* -------------------
+	load fonts
+-----------------*/
+@font-face {
+  src: url(../fonts/Roboto-Light.ttf);
+  font-family: robotoLight;
+}
+
+@font-face {
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: robotoRegular;
+}
+
+/* -------------------
+	variables
+-----------------*/
+:root {
+	--lightweight-font: robotoLight;
+	--regularweight-font: robotoRegular;
+	--primary-font: green;
+	--secondary-font: gray;
+	--light-font: ivory;
+	--secondary-bgcolor: gray;
+}
+
+/* -------------------
+	common styles
+-----------------*/
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	display: block;
+	max-width: 1000px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.text-regularweight {
+	font-family: var(--regularweight-font);
+}
+
+.text-color-primary {
+	color: var(--primary-font);
+}
+
+.text-color-secondary {
+	color: var(--secondary-font);
+}
+
+.text-color-light {
+	color: var(--light-font);
+}
+
+.bg-color-secondary {
+	background-color: var(--secondary-bgcolor);
+}
+
+.paddingy-5 {
+	padding: 5px 0;
+}
+
+/* -------------------
+	header styles
+-----------------*/
+header > h1 {
+	margin: 0;
+}
+
+header > hr {
+	border: 3px solid green;
+}
+
+/* -------------------
+	main styles
+-----------------*/
+main > h3 {
+	margin-top: 0;
+}
+
+.step-container > p {
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	line-height: 25px;
+	text-align: justify;
+}
+
+.step-conainer > .img-container > img, .figure-caption {
+	display: block;
+	margin: 5px 0;
+	text-align: center;
+}
