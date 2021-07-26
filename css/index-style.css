@@ -45,6 +45,11 @@ body {
 	margin: 0 auto;
 }
 
+.align-text-justify {
+	display: block;
+	text-align: justify;
+}
+
 .text-lightweight {
 	font-family: var(--lightweight-font);
 }
