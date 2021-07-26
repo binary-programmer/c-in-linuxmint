@@ -3,22 +3,22 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>C in Linux-mint</title>
+	<title>C in Linux Mint</title>
 	<!-- link css -->
 	<link rel="stylesheet" href="css/index-style.css">
 </head>
 <body>
 	<!-- header section -->
 	<header class="container text-color-primary">
-		<h1>How to Run a C Program in Linux-Mint</h1>
+		<h1>How to Run a C Program in Linux Mint</h1>
 		<hr>
-		<h3 class="text-color-secondary">Let's learn how to run a C program in Linux-mint:</h3>
+		<h3 class="text-color-secondary">Let's learn how to run a C program in Linux Mint:</h3>
 	</header>
 	
 	<!-- main section -->
 	<main class="container">
 		<!-- Stage-A -->
-		<h3 class="bg-color-primary text-color-light paddingy-10">&nbsp;Stage-A: gcc Insatallation</h3>
+		<h3 class="bg-color-primary text-color-light paddingy-10">&nbsp;Stage-A: GCC Insatallation</h3>
 		<!-- step-1 -->
 		<div class="step-container">
 			<h3><span class="text-color-primary">Step-1: </span>Open Terminal</h3>
@@ -30,35 +30,35 @@
 		</div>
 		<!-- step-2 -->
 		<div class="step-container">
-			<h3><span class="text-color-primary">Step-2: </span>Checking gcc Version</h3>
-			<p>Type the following command in the terminal as shown in <span class="text-color-primary">Figure-2</span> to check whether gcc compiler is installed or not before installing it:</p>
+			<h3><span class="text-color-primary">Step-2: </span>Checking GCC Version</h3>
+			<p>Type the following command in the terminal as shown in <span class="text-color-primary">Figure-2</span> to check whether GCC compiler is installed or not before installing it:</p>
 			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;gcc --version</p>
 			<div class="img-container">
-				<img src="img/checking-gcc-version.png" alt="gcc version checking image" width="100%">
-				<span class="figure-caption"><span class="text-color-primary">Figure-2:</span> Checking gcc Version</span>
+				<img src="img/checking-gcc-version.png" alt="&#39;gcc&#39; version checking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-2:</span> Checking GCC Version</span>
 			</div>
-			<p>Then press Enter key from keyboard.</p>
+			<p>Then, press Enter key from keyboard.</p>
 		</div>
 		<!-- step-3 -->
 		<div class="step-container">
-			<h3><span class="text-color-primary">Step-3: </span>If gcc Not Found</h3>
-			<p>If gcc not found comes like the following message as shown in <span class="text-color-primary">Figure-3</span>, follow from <span class="text-color-primary">Step-4</span>. Otherwise, follow from <span class="text-color-primary">Step-x</span>.</p>
+			<h3><span class="text-color-primary">Step-3: </span>If 'gcc' Not Found</h3>
+			<p>If 'gcc' not found comes like the following message as shown in <span class="text-color-primary">Figure-3</span>, follow from <span class="text-color-primary">Step-4</span>. Otherwise, follow from <span class="text-color-primary">Stage-B</span>.</p>
 			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;Command 'gcc' not found, but can be installed with: <br> &nbsp;sudo apt install gcc</p>
 			<div class="img-container">
-				<img src="img/gcc-not-found.png" alt="gcc version checking image" width="100%">
-				<span class="figure-caption"><span class="text-color-primary">Figure-3:</span> Checking gcc Version</span>
+				<img src="img/gcc-not-found.png" alt="&#39;gcc&#39; not found image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-3:</span> If 'gcc' not found</span>
 			</div>
 		</div>
 		<!-- step-4 -->
 		<div class="step-container">
 			<h3><span class="text-color-primary">Step-4: </span>Run Command: sudo apt install gcc</h3>
-			<p>Type the following command in the terminal as shown in <span class="text-color-primary">Figure-4</span> to install gcc.</p>
+			<p>Type the following command in the terminal as shown in <span class="text-color-primary">Figure-4</span> to install GCC.</p>
 			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;sudo apt install gcc</p>
 			<div class="img-container">
-				<img src="img/sudo-apt-install-gcc.png" alt="gcc version checking image" width="100%">
+				<img src="img/sudo-apt-install-gcc.png" alt="sudo apt install gcc image" width="100%">
 				<span class="figure-caption"><span class="text-color-primary">Figure-4:</span> Run Command: sudo apt install gcc</span>
 			</div>
-			<p>Then press Enter key from keyboard.</p>
+			<p>Then, press Enter key from keyboard.</p>
 		</div>
 		<!-- step-5 -->
 		<div class="step-container">
@@ -66,37 +66,37 @@
 			<p>The terminal will ask to type password like the following message as shown in <span class="text-color-primary">Figure-5</span>.</p>
 			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;[sudo] password for binary-programmer:</p>
 			<div class="img-container">
-				<img src="img/type-password.png" alt="gcc version checking image" width="100%">
+				<img src="img/type-password.png" alt="type password image" width="100%">
 				<span class="figure-caption"><span class="text-color-primary">Figure-5:</span> Type Password</span>
 			</div>
 			<p>Now, type the user password and press Enter key from keyboard. Here, my user name is binary-programmer. So, I am going to type the password of binary-programmer. After typing the password, I shall press Enter key from my keyboard.</p>
 		</div>
 		<!-- step-6 -->
 		<div class="step-container">
-			<h3><span class="text-color-primary">Step-6: </span>gcc Installation Completion</h3>
-			<p>The terminal will show the message as shown in <span class="text-color-primary">Figure-6</span> indicating the gcc installation completion.</p>
+			<h3><span class="text-color-primary">Step-6: </span>GCC Installation Completion</h3>
+			<p>The terminal will show the message as shown in <span class="text-color-primary">Figure-6</span> indicating the GCC installation completion.</p>
 			<div class="img-container">
-				<img src="img/gcc-installed.png" alt="gcc version checking image" width="100%">
-				<span class="figure-caption"><span class="text-color-primary">Figure-6:</span> gcc Installation Completion</span>
+				<img src="img/gcc-installed.png" alt="&#39;gcc&#39; installed image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-6:</span> GCC Installation Completion</span>
 			</div>
 		</div>
 		<!-- step-7 -->
 		<div class="step-container">
-			<h3><span class="text-color-primary">Step-7: </span>Recheck gcc Version</h3>
-			<p>Recheck gcc version like <span class="text-color-primary">Step-2</span> as shown in <span class="text-color-primary">Figure-7</span>.</p>
+			<h3><span class="text-color-primary">Step-7: </span>Recheck GCC Version</h3>
+			<p>Recheck GCC version like <span class="text-color-primary">Step-2</span> as shown in <span class="text-color-primary">Figure-7</span>.</p>
 			<p class="bg-color-secondary text-color-light paddingy-5">&nbsp;gcc --version</p>
 			<div class="img-container">
-				<img src="img/checking-gcc-version-again.png" alt="gcc version checking image" width="100%">
-				<span class="figure-caption"><span class="text-color-primary">Figure-7:</span> Recheck gcc Version</span>
+				<img src="img/checking-gcc-version-again.png" alt="&#39;gcc&#39; version rechecking image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-7:</span> Rechecking GCC Version</span>
 			</div>
 		</div>
 		<!-- step-8 -->
 		<div class="step-container">
-			<h3><span class="text-color-primary">Step-8: </span>gcc Version Shown</h3>
-			<p>If gcc version is shown as shown in <span class="text-color-primary">Figure-8</span>, it can be said that gcc installation has been successful.</p>
+			<h3><span class="text-color-primary">Step-8: </span>GCC Version Shown</h3>
+			<p>If GCC version is shown as shown in <span class="text-color-primary">Figure-8</span>, it can be said that GCC installation has been successful.</p>
 			<div class="img-container">
-				<img src="img/gcc-version-shown.png" alt="gcc version checking image" width="100%">
-				<span class="figure-caption"><span class="text-color-primary">Figure-8:</span> gcc Version Shown</span>
+				<img src="img/gcc-version-shown.png" alt="&#39;gcc&#39; version shown image" width="100%">
+				<span class="figure-caption"><span class="text-color-primary">Figure-8:</span> GCC Version Shown</span>
 			</div>
 		</div>
 		<!-- Stage-B -->
