@@ -27,6 +27,7 @@
 	--primary-font: green;
 	--secondary-font: gray;
 	--light-font: ivory;
+	--primary-bgcolor: green;
 	--secondary-bgcolor: gray;
 }
 
@@ -42,6 +43,10 @@ body {
 	max-width: 1000px;
 	padding: 10px;
 	margin: 0 auto;
+}
+
+.text-lightweight {
+	font-family: var(--lightweight-font);
 }
 
 .text-regularweight {
@@ -60,12 +65,20 @@ body {
 	color: var(--light-font);
 }
 
+.bg-color-primary {
+	background-color: var(--primary-bgcolor);
+}
+
 .bg-color-secondary {
 	background-color: var(--secondary-bgcolor);
 }
 
 .paddingy-5 {
 	padding: 5px 0;
+}
+
+.paddingy-10 {
+	padding: 10px 0;
 }
 
 /* -------------------
@@ -79,13 +92,13 @@ header > hr {
 	border: 3px solid green;
 }
 
+header > h3 {
+	margin-bottom: 0;
+}
+
 /* -------------------
 	main styles
 -----------------*/
-main > h3 {
-	margin-top: 0;
-}
-
 .step-container > p {
 	letter-spacing: 1px;
 	word-spacing: 10px;
